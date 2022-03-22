@@ -2,7 +2,7 @@
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 
-    if (/youtube/.test(tab.url) && /shorts/.test(tab.url)) {
+    if (/\/shorts\//.test(tab.url)) {
         chrome.tabs.update(
             tabId = tabId,
             updateProperties = {
