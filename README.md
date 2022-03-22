@@ -12,3 +12,4 @@ Recently YouTube changed their player on desktop to more closely imitate the Tik
 
 ## TODO:
 1. Pop old URL from history, so there won't be a duplicate entry.
+2. Test whether the Firefox tabs API works the same.
