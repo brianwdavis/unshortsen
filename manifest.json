@@ -1,0 +1,16 @@
+{
+    "name": "Unshortsen",
+    "description": "Revert YouTube shorts to the normal interface",
+    "manifest_version": 3,
+    "version": "0.1",
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://www.youtube.com/shorts"
+      ]
+  }
