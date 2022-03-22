@@ -7,3 +7,8 @@ Recently YouTube changed their player on desktop to more closely imitate the Tik
 | Shorts | With `unshortsen` |
 |---|---|
 |![Screenshot of Shorts player](before.png)|![Screenshot of standard player](after.png)|
+
+---
+
+## TODO:
+1. Pop old URL from history, so there won't be a duplicate entry.
